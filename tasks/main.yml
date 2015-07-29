@@ -1,0 +1,47 @@
+---
+
+- name: grafana directory
+  file: path=/var/lib/grafana state=directory
+  tags: docker-grafana
+
+# TODO: container duplicates! ansible creates duplicate containers without name and outputs error: "Docker API Error: Cannot start container d77686b3ab769db11aa702e6dd43659e4f1851d7bb809c681665acfd92eb5ac9: Cannot find child for /grafana"
+# TODO: ansible docker runner from hexlet.io - http://habrahabr.ru/company/hexlet/blog/258815/
+# TODO: need to add '' to docker start
+# docker run --name grafana -d -p 3000:3000 -v /var/lib/grafana:/var/lib/grafana grafana/grafana:2.0.2 -e "GF_SECURITY_ADMIN_PASSWORD=password"
+- name: run grafana docker
+  docker:
+    name: grafana
+    image: grafana/grafana:2.0.2
+    ports:
+      - "3000:3000"
+    volumes:
+      - /var/lib/grafana:/var/lib/grafana
+    env:
+      GF_SECURITY_ADMIN_PASSWORD: "{{ grafana_password }}"
+    state: started
+  tags: docker-grafana
+
+- name: upstart script
+  template: src=upstart.conf.j2 dest="/etc/init/docker-{{ item }}.conf"
+  with_items:
+    - grafana
+  tags: docker-grafana
+
+- name: install required httplib2
+  pip: name=httplib2 state=present
+  tags: docker-grafana
+
+# TODO: grafana api key add
+# TODO: grafana not creates dashboards, only updates, need to set id: null, http://docs.grafana.org/reference/http_api/ or import dashboards manually first-time
+# TODO: modified dashboards has status 'success' instead of 'changed'
+- name: import dashboards
+  uri:
+    url: "http://{{ grafana_domain }}/api/dashboards/db"
+    HEADER_Authorization: "Bearer {{ grafana_api_key }}"
+    HEADER_Content-Type: "application/json"
+    method: POST
+    body_format: json
+    body: '{ "dashboard": {{ lookup("file", item) }}, "overwrite": true }'
+  with_fileglob:
+    - dashboards/*
+  tags: docker-grafana

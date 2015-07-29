@@ -1,0 +1,1292 @@
+{
+  "id": 3,
+  "title": "Site",
+  "originalTitle": "Site",
+  "tags": [],
+  "style": "dark",
+  "timezone": "browser",
+  "editable": true,
+  "hideControls": false,
+  "sharedCrosshair": false,
+  "rows": [
+    {
+      "collapse": false,
+      "editable": true,
+      "height": "250px",
+      "panels": [
+        {
+          "cacheTimeout": null,
+          "colorBackground": false,
+          "colorValue": true,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "editable": true,
+          "error": false,
+          "format": "none",
+          "height": "50",
+          "id": 6,
+          "interval": null,
+          "links": [],
+          "maxDataPoints": 100,
+          "nullPointMode": "connected",
+          "nullText": null,
+          "postfix": "",
+          "postfixFontSize": "50%",
+          "prefix": "",
+          "prefixFontSize": "50%",
+          "span": 2,
+          "sparkline": {
+            "fillColor": "rgba(31, 118, 189, 0.18)",
+            "full": false,
+            "lineColor": "rgb(31, 120, 193)",
+            "show": false
+          },
+          "targets": [
+            {
+              "target": "stats.gauges.drupals.$domain.cache"
+            }
+          ],
+          "thresholds": "0,0,1",
+          "title": "cache",
+          "type": "singlestat",
+          "valueFontSize": "80%",
+          "valueMaps": [
+            {
+              "op": "=",
+              "text": "N/A",
+              "value": "null"
+            }
+          ],
+          "valueName": "current"
+        },
+        {
+          "cacheTimeout": null,
+          "colorBackground": false,
+          "colorValue": true,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "editable": true,
+          "error": false,
+          "format": "none",
+          "height": "50",
+          "id": 11,
+          "interval": null,
+          "links": [],
+          "maxDataPoints": 100,
+          "nullPointMode": "connected",
+          "nullText": null,
+          "postfix": "",
+          "postfixFontSize": "50%",
+          "prefix": "",
+          "prefixFontSize": "50%",
+          "span": 2,
+          "sparkline": {
+            "fillColor": "rgba(31, 118, 189, 0.18)",
+            "full": false,
+            "lineColor": "rgb(31, 120, 193)",
+            "show": false
+          },
+          "targets": [
+            {
+              "target": "stats.gauges.drupals.$domain.boost"
+            }
+          ],
+          "thresholds": "0,0,1",
+          "title": "boost",
+          "type": "singlestat",
+          "valueFontSize": "80%",
+          "valueMaps": [
+            {
+              "op": "=",
+              "text": "N/A",
+              "value": "null"
+            }
+          ],
+          "valueName": "current"
+        },
+        {
+          "cacheTimeout": null,
+          "colorBackground": false,
+          "colorValue": true,
+          "colors": [
+            "rgba(50, 172, 45, 0.97)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(245, 54, 54, 0.9)"
+          ],
+          "editable": true,
+          "error": false,
+          "format": "none",
+          "height": "50",
+          "id": 8,
+          "interval": null,
+          "links": [],
+          "maxDataPoints": 100,
+          "nullPointMode": "connected",
+          "nullText": null,
+          "postfix": "",
+          "postfixFontSize": "50%",
+          "prefix": "",
+          "prefixFontSize": "50%",
+          "span": 2,
+          "sparkline": {
+            "fillColor": "rgba(31, 118, 189, 0.18)",
+            "full": false,
+            "lineColor": "rgb(31, 120, 193)",
+            "show": false
+          },
+          "targets": [
+            {
+              "target": "stats.gauges.drupals.$domain.maintenance_mode"
+            }
+          ],
+          "thresholds": "0,1",
+          "title": "maintenance",
+          "type": "singlestat",
+          "valueFontSize": "80%",
+          "valueMaps": [
+            {
+              "op": "=",
+              "text": "N/A",
+              "value": "null"
+            }
+          ],
+          "valueName": "current"
+        },
+        {
+          "cacheTimeout": null,
+          "colorBackground": false,
+          "colorValue": true,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "editable": true,
+          "error": false,
+          "format": "none",
+          "height": "50",
+          "id": 9,
+          "interval": null,
+          "links": [],
+          "maxDataPoints": 100,
+          "nullPointMode": "connected",
+          "nullText": null,
+          "postfix": "",
+          "postfixFontSize": "50%",
+          "prefix": "",
+          "prefixFontSize": "50%",
+          "span": 2,
+          "sparkline": {
+            "fillColor": "rgba(31, 118, 189, 0.18)",
+            "full": false,
+            "lineColor": "rgb(31, 120, 193)",
+            "show": false
+          },
+          "targets": [
+            {
+              "target": "stats.gauges.drupals.$domain.preprocess_css"
+            }
+          ],
+          "thresholds": "0,0,1",
+          "title": "preprocess_css",
+          "type": "singlestat",
+          "valueFontSize": "80%",
+          "valueMaps": [
+            {
+              "op": "=",
+              "text": "N/A",
+              "value": "null"
+            }
+          ],
+          "valueName": "current"
+        },
+        {
+          "cacheTimeout": null,
+          "colorBackground": false,
+          "colorValue": true,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "editable": true,
+          "error": false,
+          "format": "none",
+          "height": "50",
+          "id": 10,
+          "interval": null,
+          "links": [],
+          "maxDataPoints": 100,
+          "nullPointMode": "connected",
+          "nullText": null,
+          "postfix": "",
+          "postfixFontSize": "50%",
+          "prefix": "",
+          "prefixFontSize": "50%",
+          "span": 2,
+          "sparkline": {
+            "fillColor": "rgba(31, 118, 189, 0.18)",
+            "full": false,
+            "lineColor": "rgb(31, 120, 193)",
+            "show": false
+          },
+          "targets": [
+            {
+              "target": "stats.gauges.drupals.$domain.preprocess_js"
+            }
+          ],
+          "thresholds": "0,0,1",
+          "title": "preprocess_js",
+          "type": "singlestat",
+          "valueFontSize": "80%",
+          "valueMaps": [
+            {
+              "op": "=",
+              "text": "N/A",
+              "value": "null"
+            }
+          ],
+          "valueName": "current"
+        },
+        {
+          "cacheTimeout": null,
+          "colorBackground": false,
+          "colorValue": false,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "editable": true,
+          "error": false,
+          "format": "none",
+          "height": "50",
+          "id": 7,
+          "interval": null,
+          "links": [],
+          "maxDataPoints": 100,
+          "nullPointMode": "connected",
+          "nullText": null,
+          "postfix": "",
+          "postfixFontSize": "50%",
+          "prefix": "",
+          "prefixFontSize": "50%",
+          "span": 2,
+          "sparkline": {
+            "fillColor": "rgba(31, 118, 189, 0.18)",
+            "full": false,
+            "lineColor": "rgb(31, 120, 193)",
+            "show": false
+          },
+          "targets": [
+            {
+              "target": "stats.gauges.drupals.$domain.cache_lifetime"
+            }
+          ],
+          "thresholds": "",
+          "title": "cache_lifetime",
+          "type": "singlestat",
+          "valueFontSize": "80%",
+          "valueMaps": [
+            {
+              "op": "=",
+              "text": "N/A",
+              "value": "null"
+            }
+          ],
+          "valueName": "current"
+        }
+      ],
+      "title": "New row"
+    },
+    {
+      "collapse": false,
+      "editable": true,
+      "height": "250px",
+      "panels": [
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "decimals": 1,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 1,
+          "legend": {
+            "alignAsTable": true,
+            "avg": false,
+            "current": true,
+            "max": false,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 1,
+          "points": true,
+          "renderer": "flot",
+          "seriesOverrides": [
+            {
+              "alias": "cache_hit_percent",
+              "yaxis": 2
+            },
+            {
+              "alias": "load time, hours",
+              "yaxis": 2
+            }
+          ],
+          "span": 12,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.cache_hit_percent, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.cached_pages, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.total_pages, 4)"
+            },
+            {
+              "target": "alias(scale(stats.gauges.drupals.$domain.total_pages_load_time, 0.000273), 'load time, hours')"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Cache",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "none"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "decimals": 0,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 2,
+          "legend": {
+            "alignAsTable": true,
+            "avg": false,
+            "current": true,
+            "max": false,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 1,
+          "points": true,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 12,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.count_modules, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.undoc_modules, 4)"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Modules",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "decimals": 0,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 3,
+          "legend": {
+            "alignAsTable": true,
+            "avg": false,
+            "current": true,
+            "max": false,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 1,
+          "points": true,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 12,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.url_alias_count, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.node_count, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.commerce_product_count, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.taxonomy_term_data_count, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.users_count, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.taxonomy_vocabulary_count, 4)"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Content",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "decimals": 0,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 4,
+          "legend": {
+            "alignAsTable": true,
+            "avg": false,
+            "current": true,
+            "max": false,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 1,
+          "points": true,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 12,
+          "stack": true,
+          "steppedLine": false,
+          "targets": [
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.cache_form, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.cache_menu, 4)"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Cache tables",
+          "tooltip": {
+            "shared": true,
+            "value_type": "individual"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "decimals": 0,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": 0,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 12,
+          "legend": {
+            "alignAsTable": true,
+            "avg": false,
+            "current": true,
+            "max": false,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": true,
+          "pointradius": 1,
+          "points": true,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 12,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.result, 4)"
+            },
+            {
+              "target": "aliasByNode(stats.gauges.drupals.$domain.max_result, 4)"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Result",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "decimals": 0,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": 0,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 5,
+          "legend": {
+            "alignAsTable": true,
+            "avg": false,
+            "current": true,
+            "max": false,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": true,
+          "pointradius": 1,
+          "points": true,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 12,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "target": "aliasByNode(stats.timers.drupals.$domain.drupal_bootstrap_full.mean_90, 5)"
+            },
+            {
+              "target": "aliasByNode(stats.timers.drupals.$domain.drupal_bootstrap_full.median, 5)"
+            },
+            {
+              "target": "aliasByNode(stats.timers.drupals.$domain.drupal_bootstrap_full.upper_90, 5)"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "drupal_bootstrap",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "decimals": 0,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": 0,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 13,
+          "legend": {
+            "alignAsTable": true,
+            "avg": false,
+            "current": true,
+            "max": false,
+            "min": false,
+            "rightSide": true,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": true,
+          "pointradius": 1,
+          "points": true,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 12,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "target": "aliasByNode(stats.timers.drupals.$domain.time.mean_90, 5)"
+            },
+            {
+              "target": "aliasByNode(stats.timers.drupals.$domain.time.median, 5)"
+            },
+            {
+              "target": "aliasByNode(stats.timers.drupals.$domain.time.upper_90, 5)"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Scan time",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "ms",
+            "short"
+          ]
+        }
+      ],
+      "title": "Row"
+    }
+  ],
+  "nav": [
+    {
+      "collapse": false,
+      "enable": true,
+      "notice": false,
+      "now": true,
+      "refresh_intervals": [
+        "5s",
+        "10s",
+        "30s",
+        "1m",
+        "5m",
+        "15m",
+        "30m",
+        "1h",
+        "2h",
+        "1d"
+      ],
+      "status": "Stable",
+      "time_options": [
+        "5m",
+        "15m",
+        "1h",
+        "6h",
+        "12h",
+        "24h",
+        "2d",
+        "7d",
+        "30d"
+      ],
+      "type": "timepicker"
+    }
+  ],
+  "time": {
+    "from": "now-7d",
+    "to": "now"
+  },
+  "templating": {
+    "list": [
+      {
+        "allFormat": "glob",
+        "current": {
+          "text": "almaz-gold_ru",
+          "value": "almaz-gold_ru"
+        },
+        "datasource": null,
+        "includeAll": false,
+        "name": "domain",
+        "options": [
+          {
+            "text": "465-911_ru",
+            "value": "465-911_ru"
+          },
+          {
+            "text": "XN----7SBAG5BUFQQEE0J_XN--P1AI",
+            "value": "XN----7SBAG5BUFQQEE0J_XN--P1AI"
+          },
+          {
+            "text": "XN--80ACC9BDNGFDCGC_XN--P1AI",
+            "value": "XN--80ACC9BDNGFDCGC_XN--P1AI"
+          },
+          {
+            "text": "absolut-nt_ru",
+            "value": "absolut-nt_ru"
+          },
+          {
+            "text": "admiralnt_ru",
+            "value": "admiralnt_ru"
+          },
+          {
+            "text": "aist-tramplin_ru",
+            "value": "aist-tramplin_ru"
+          },
+          {
+            "text": "almaz-gold_ru",
+            "value": "almaz-gold_ru"
+          },
+          {
+            "text": "alphastroynt_ru",
+            "value": "alphastroynt_ru"
+          },
+          {
+            "text": "aywengo_ru",
+            "value": "aywengo_ru"
+          },
+          {
+            "text": "azbuka-k_ru",
+            "value": "azbuka-k_ru"
+          },
+          {
+            "text": "center-geniy_ru",
+            "value": "center-geniy_ru"
+          },
+          {
+            "text": "chado-sonata_ru",
+            "value": "chado-sonata_ru"
+          },
+          {
+            "text": "clean_viasite_ru",
+            "value": "clean_viasite_ru"
+          },
+          {
+            "text": "clean_viasite_ru_old",
+            "value": "clean_viasite_ru_old"
+          },
+          {
+            "text": "csonlen_ru",
+            "value": "csonlen_ru"
+          },
+          {
+            "text": "deluxe-nt_ru",
+            "value": "deluxe-nt_ru"
+          },
+          {
+            "text": "dental-design_ru",
+            "value": "dental-design_ru"
+          },
+          {
+            "text": "diagnostikaplus-nt_ru",
+            "value": "diagnostikaplus-nt_ru"
+          },
+          {
+            "text": "dkntmk_ru",
+            "value": "dkntmk_ru"
+          },
+          {
+            "text": "dorservis-nt_ru",
+            "value": "dorservis-nt_ru"
+          },
+          {
+            "text": "dou16_uoggo_ru",
+            "value": "dou16_uoggo_ru"
+          },
+          {
+            "text": "dou18_uoggo_ru",
+            "value": "dou18_uoggo_ru"
+          },
+          {
+            "text": "dou1_uoggo_ru",
+            "value": "dou1_uoggo_ru"
+          },
+          {
+            "text": "dou26_uoggo_ru",
+            "value": "dou26_uoggo_ru"
+          },
+          {
+            "text": "dou2_uoggo_ru",
+            "value": "dou2_uoggo_ru"
+          },
+          {
+            "text": "dou30_uoggo_ru",
+            "value": "dou30_uoggo_ru"
+          },
+          {
+            "text": "dou34_uoggo_ru",
+            "value": "dou34_uoggo_ru"
+          },
+          {
+            "text": "dou50_uoggo_ru",
+            "value": "dou50_uoggo_ru"
+          },
+          {
+            "text": "dou55_uoggo_ru",
+            "value": "dou55_uoggo_ru"
+          },
+          {
+            "text": "dou87_uoggo_ru",
+            "value": "dou87_uoggo_ru"
+          },
+          {
+            "text": "entry-nt_ru",
+            "value": "entry-nt_ru"
+          },
+          {
+            "text": "felix-groom_ru",
+            "value": "felix-groom_ru"
+          },
+          {
+            "text": "germes-nt_ru",
+            "value": "germes-nt_ru"
+          },
+          {
+            "text": "glassmaster-nt_com",
+            "value": "glassmaster-nt_com"
+          },
+          {
+            "text": "grosshaus_pro",
+            "value": "grosshaus_pro"
+          },
+          {
+            "text": "imcnt_ru",
+            "value": "imcnt_ru"
+          },
+          {
+            "text": "kovcheg_tagilsergiya_ru",
+            "value": "kovcheg_tagilsergiya_ru"
+          },
+          {
+            "text": "krashural_ru",
+            "value": "krashural_ru"
+          },
+          {
+            "text": "kvantnt_viasite_ru",
+            "value": "kvantnt_viasite_ru"
+          },
+          {
+            "text": "mag-dos_ru",
+            "value": "mag-dos_ru"
+          },
+          {
+            "text": "maslobaza-nt_ru",
+            "value": "maslobaza-nt_ru"
+          },
+          {
+            "text": "maxim-nt_ru",
+            "value": "maxim-nt_ru"
+          },
+          {
+            "text": "mebel-tag_ru",
+            "value": "mebel-tag_ru"
+          },
+          {
+            "text": "megashapka_ru",
+            "value": "megashapka_ru"
+          },
+          {
+            "text": "mk-nt_ru",
+            "value": "mk-nt_ru"
+          },
+          {
+            "text": "msg-nt_ru",
+            "value": "msg-nt_ru"
+          },
+          {
+            "text": "nero-vencitore_ru",
+            "value": "nero-vencitore_ru"
+          },
+          {
+            "text": "new_oaomb_ru",
+            "value": "new_oaomb_ru"
+          },
+          {
+            "text": "new_uoggo_ru",
+            "value": "new_uoggo_ru"
+          },
+          {
+            "text": "ntpk2_ru",
+            "value": "ntpk2_ru"
+          },
+          {
+            "text": "oblikvd_ru",
+            "value": "oblikvd_ru"
+          },
+          {
+            "text": "old_aist-tramplin_ru",
+            "value": "old_aist-tramplin_ru"
+          },
+          {
+            "text": "p1_viasite_ru",
+            "value": "p1_viasite_ru"
+          },
+          {
+            "text": "p2_viasite_ru",
+            "value": "p2_viasite_ru"
+          },
+          {
+            "text": "panopoly_viasite_ru",
+            "value": "panopoly_viasite_ru"
+          },
+          {
+            "text": "paseka96_ru",
+            "value": "paseka96_ru"
+          },
+          {
+            "text": "plotnikstroy_ru",
+            "value": "plotnikstroy_ru"
+          },
+          {
+            "text": "polustur_viasite_ru",
+            "value": "polustur_viasite_ru"
+          },
+          {
+            "text": "popstas_viasite_ru",
+            "value": "popstas_viasite_ru"
+          },
+          {
+            "text": "privilegia-kuhni_ru",
+            "value": "privilegia-kuhni_ru"
+          },
+          {
+            "text": "pro-baza_ru",
+            "value": "pro-baza_ru"
+          },
+          {
+            "text": "radio-t_viasite_ru",
+            "value": "radio-t_viasite_ru"
+          },
+          {
+            "text": "rddt_uoggo_ru",
+            "value": "rddt_uoggo_ru"
+          },
+          {
+            "text": "rose-nt_ru",
+            "value": "rose-nt_ru"
+          },
+          {
+            "text": "school30_viasite_ru",
+            "value": "school30_viasite_ru"
+          },
+          {
+            "text": "sdushor_uoggo_ru",
+            "value": "sdushor_uoggo_ru"
+          },
+          {
+            "text": "sim-uzor_ru",
+            "value": "sim-uzor_ru"
+          },
+          {
+            "text": "smk-vid_ru",
+            "value": "smk-vid_ru"
+          },
+          {
+            "text": "snormal_viasite_ru",
+            "value": "snormal_viasite_ru"
+          },
+          {
+            "text": "sojuzmetall_ru",
+            "value": "sojuzmetall_ru"
+          },
+          {
+            "text": "sosh10_uoggo_ru",
+            "value": "sosh10_uoggo_ru"
+          },
+          {
+            "text": "sosh13_uoggo_ru",
+            "value": "sosh13_uoggo_ru"
+          },
+          {
+            "text": "sosh19_uoggo_ru",
+            "value": "sosh19_uoggo_ru"
+          },
+          {
+            "text": "sosh1_uoggo_ru",
+            "value": "sosh1_uoggo_ru"
+          },
+          {
+            "text": "sosh24_uoggo_ru",
+            "value": "sosh24_uoggo_ru"
+          },
+          {
+            "text": "sosh4_uoggo_ru",
+            "value": "sosh4_uoggo_ru"
+          },
+          {
+            "text": "sosh7_uoggo_ru",
+            "value": "sosh7_uoggo_ru"
+          },
+          {
+            "text": "sp4nt_ru",
+            "value": "sp4nt_ru"
+          },
+          {
+            "text": "specialist-nt_ru",
+            "value": "specialist-nt_ru"
+          },
+          {
+            "text": "specnt_ru",
+            "value": "specnt_ru"
+          },
+          {
+            "text": "st-tag_ru",
+            "value": "st-tag_ru"
+          },
+          {
+            "text": "tagilman_ru",
+            "value": "tagilman_ru"
+          },
+          {
+            "text": "tagilokno_ru",
+            "value": "tagilokno_ru"
+          },
+          {
+            "text": "tagilsergiya_ru",
+            "value": "tagilsergiya_ru"
+          },
+          {
+            "text": "tb_viasite_ru",
+            "value": "tb_viasite_ru"
+          },
+          {
+            "text": "territorijavto_ru",
+            "value": "territorijavto_ru"
+          },
+          {
+            "text": "tricolor-nt_ru",
+            "value": "tricolor-nt_ru"
+          },
+          {
+            "text": "ubm-nt_ru",
+            "value": "ubm-nt_ru"
+          },
+          {
+            "text": "ukstroyservis_ru",
+            "value": "ukstroyservis_ru"
+          },
+          {
+            "text": "uoggo_ru",
+            "value": "uoggo_ru"
+          },
+          {
+            "text": "update_viasite_ru",
+            "value": "update_viasite_ru"
+          },
+          {
+            "text": "urzp_ru",
+            "value": "urzp_ru"
+          },
+          {
+            "text": "utranscom_ru",
+            "value": "utranscom_ru"
+          },
+          {
+            "text": "v1_viasite_ru",
+            "value": "v1_viasite_ru"
+          },
+          {
+            "text": "visitkaplus_viasite_ru",
+            "value": "visitkaplus_viasite_ru"
+          },
+          {
+            "text": "voda365_ru",
+            "value": "voda365_ru"
+          },
+          {
+            "text": "wiki_viasite_ru",
+            "value": "wiki_viasite_ru"
+          },
+          {
+            "text": "xn--80aaorjaduategif_xn--p1ai",
+            "value": "xn--80aaorjaduategif_xn--p1ai"
+          },
+          {
+            "text": "xn--90achtbegpeg0bo2j_xn--p1ai",
+            "value": "xn--90achtbegpeg0bo2j_xn--p1ai"
+          },
+          {
+            "text": "xn--96-dlciytlc5a_xn--p1ai",
+            "value": "xn--96-dlciytlc5a_xn--p1ai"
+          },
+          {
+            "text": "xn--d1abmsaaop_xn--p1ai",
+            "value": "xn--d1abmsaaop_xn--p1ai"
+          },
+          {
+            "text": "zarulavto_ru",
+            "value": "zarulavto_ru"
+          },
+          {
+            "text": "znakimebel_ru",
+            "value": "znakimebel_ru"
+          }
+        ],
+        "query": "stats.gauges.drupals.*",
+        "refresh_on_load": false,
+        "type": "query"
+      }
+    ]
+  },
+  "annotations": {
+    "list": []
+  },
+  "schemaVersion": 6,
+  "version": 10
+}

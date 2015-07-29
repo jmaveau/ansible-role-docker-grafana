@@ -1,0 +1,5 @@
+---
+
+grafana_password: "password"
+grafana_api_key: ""
+grafana_domain: "grafana.{{ ansible_nodename }}"
